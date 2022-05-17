@@ -1,4 +1,4 @@
-# XSS
+# Cross-Site Scripting (XSS) ❌
 
 Cross-Site Scripting (XSS) é um tipo de ataque de injeção, no qual são injetados códigos maliciosos em sites. Ocorrem predominantemente quando o atacante utiliza do navegador para enviar códigos maliciosos para seu usuário alvo. Pode estar relacionado com um ataque de engenharia social, quando busca forçar a vítima a clicar em algum link ou acessar alguma página.
 
