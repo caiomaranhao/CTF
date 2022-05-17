@@ -22,7 +22,7 @@ Agora vou utilizar de um site, “[xss-game.appspot.com](http://xss-game.appspot
 
 Vou realizar o primeiro teste, apenas digitando a palavra “teste” e realizando a busca. É possível notar que a palavra foi REFLETIDA no corpo da página, ou seja, o que digitei no campo de busca foi manipulado de alguma forma pelo código fonte e inserido no corpo da aplicação.
 
-![Untitled](XSS%2039ae62288c884c02be3a4aef5b747fc1/Untitled%201.png)
+![Untitled](Imagens/Untitled%201.png)
 
 Agora para gerar o exploit será necessário analisar o código fonte da página e identificar os elementos que o texto refletido está inserido.
 
