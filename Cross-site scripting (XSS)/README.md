@@ -4,11 +4,11 @@ Cross-Site Scripting (XSS) é um tipo de ataque de injeção, no qual são injet
 
 Quando se trata de XSS há uma variedade enorme de ataques, podem permitir a trasnferencia de arquivos, cookies e outras informações de sessão. Esta falha pode implicar de algumas formas seu alvo e por isso foi dividida em tres sub-grupos: Refletido, armazenado e baseado no DOM.
 
-Armazenado:
+### Armazenado:
 
 Neste ataque o script fica armazenado no site e permanece injetado permanentemente no servidor, como em uma página de perfil. Desta forma, a vítima retorna o código malicioso do servidor quando solicitada o armazenamento. Contem em seu escopo outro tipo, blind Cross-Site Script, caracterizda pela carga útil estar armazenada no servidor e assim é refletida pelo backend das empresas.
 
-Refletido:
+### Refletido:
 
 Este ataque consiste no script que é refletido no servidor da WEB como uma mensagem de erro, resultado de pesquisa ou qualquer outra resposta. Estes ataques na sua maioria precisam de engenharia social, para convencer o alvo de clicar no link enviado.
 
@@ -22,7 +22,7 @@ Agora vou utilizar de um site, “[xss-game.appspot.com](http://xss-game.appspot
 
 Vou realizar o primeiro teste, apenas digitando a palavra “teste” e realizando a busca. É possível notar que a palavra foi REFLETIDA no corpo da página, ou seja, o que digitei no campo de busca foi manipulado de alguma forma pelo código fonte e inserido no corpo da aplicação.
 
-![Untitled](XSS%2039ae62288c884c02be3a4aef5b747fc1/Untitled%201.png)
+![Untitled](Imagens/Untitled%201.png)
 
 Agora para gerar o exploit será necessário analisar o código fonte da página e identificar os elementos que o texto refletido está inserido.
 
