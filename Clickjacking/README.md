@@ -40,9 +40,9 @@ Para esclarecer melhor um exemplo prático será desenvolvido utilizando como ba
     ```
     
 
-![Untitled](Imagens/Untitled%201.png)
+    ![Untitled](Imagens/Untitled%201.png)
 
-![Untitled](Imagens/Untitled%202.png)
+    ![Untitled](Imagens/Untitled%202.png)
 
 - ### Terceiro passo: Enviar a vítima
     
