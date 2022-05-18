@@ -1,4 +1,4 @@
-# Clickjacking
+# Clickjacking 🖱️
 
 Diferente da maioria das vulnerabilidades, o clickjacking não tem o poder de afetar diretamente alguma funcionalidade do site, entretanto permite que sites falsos sejam criados utilizando de base o site orginal, utilizando de uma “mascara” para esconder as ações realizadas.
 
