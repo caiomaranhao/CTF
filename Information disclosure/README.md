@@ -1,4 +1,4 @@
-# Information Disclosure
+# Information Disclosure 🕵️
 
 Information Disclousure, ou traduzindo diretamente para o português Divulgação e Informação, é uma vulnerabilidade encontrada predominantemente em aplicações WEB e consiste no vazamento de informações confidenciais do sistema.
 
